@@ -1,8 +1,8 @@
-print("mari kita lihat umur anda dalam menit,detik, dan hari")
-nama = input("nama:" )
-print("sekarang masukan umur anda")
-umur = int(input("umur:" ))
-umur = umur * 365
-menit = umur * 525948
-detik = umur * 31556926
-print(name, "telah hidup selama", hari,"hari", menit, "menit, dan", detik, "detik! Wah!")
+print("mari kita lihat berapa umur anda dalam menit detik")
+print("masukan nama anda!!")
+nama = raw_input("nama :")
+print("masukin umur anda")
+umur = int(input("umur :"))
+menit = umur / 525948
+detik = umur / 31556926
+print(nama,"berapa lama anda hidup", hari, "hari", detik, "detik!! wah")
